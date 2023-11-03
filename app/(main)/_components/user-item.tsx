@@ -7,7 +7,6 @@ import { SignOutButton, useUser } from "@clerk/clerk-react"
 
 export const UserItem=()=>{
     const { user } = useUser();
-    console.log(useUser());
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
